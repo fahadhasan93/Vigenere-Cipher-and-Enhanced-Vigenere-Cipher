@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Vigenère Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vigenere Cipher and Enhanced Vigenere Cipher</h1>
+        
+        <div class="cipher-box">
+            <h2>Vigenere Cipher</h2>
+            <input type="text" id="classic-plaintext" placeholder="Enter Plaintext">
+            <input type="text" id="classic-keyword" placeholder="Enter Keyword">
+            <button onclick="classicEncrypt()">Encrypt</button>
+            <button onclick="classicDecrypt()">Decrypt</button>
+            <p id="classic-result">Encrypted/Decrypted text will appear here</p>
+        </div>
+        <div class="cipher-box">
+            <h2>Enhanced Vigenere Cipher</h2>
+            <input type="text" id="enhanced-plaintext" placeholder="Enter Plaintext">
+            <input type="text" id="enhanced-keyword" placeholder="Enter Keyword">
+            <button onclick="enhancedEncrypt()">Encrypt</button>
+            <button onclick="enhancedDecrypt()">Decrypt</button>
+            <p id="enhanced-result">Encrypted/Decrypted text will appear here</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
