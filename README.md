@@ -1,5 +1,5 @@
 
-```md
+
 # Vigenère Cipher and Enhanced Vigenère Cipher Encryption and Decryption  
 
 ## 1. Overview  
@@ -40,14 +40,14 @@ This project implements the **Vigenère Cipher** and **Enhanced Vigenère Cipher
 ### 5.1 Vigenère Cipher  
 
 #### 🔹 Encryption Formula  
-\[
+
 C[i] = (P[i] + K[i]) \mod 26
-\]  
+ 
 
 #### 🔹 Decryption Formula  
-\[
+
 P[i] = (C[i] - K[i] + 26) \mod 26
-\]  
+ 
 
 **Example:**  
 - **Plaintext**: `"HELLO"`  
@@ -59,14 +59,14 @@ P[i] = (C[i] - K[i] + 26) \mod 26
 ### 5.2 Enhanced Vigenère Cipher  
 
 #### 🔹 Encryption Formula  
-\[
+
 S[i] = (P[i] + K[i] + i) \mod 26
-\]  
+ 
 
 #### 🔹 Decryption Formula  
-\[
+
 P[i] = (S[i] - K[i] - i + 26) \mod 26
-\]  
+ 
 
 **Example:**  
 - **Plaintext**: `"HELLO"`  
